@@ -1,0 +1,33 @@
+// Clear Browser Presets
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 2000px;
+  margin: 0 auto;
+  background-image: url("../images/bean-cup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// Keeps footer at bottom. https://dev.to/niorad/keeping-the-footer-at-the-bottom-with-css-grid-15mf
+html,
+body,
+#gatsby-focus-wrapper,
+#___gatsby {
+  width: 100%;
+  height: 100%;
+}
+
+.layout {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr auto;
+  grid-template-columns: 1fr;
+
+  // grid-row-gap: 30px;
+}
+/////////////////////////

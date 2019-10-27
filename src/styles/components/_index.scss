@@ -1,0 +1,72 @@
+.homepage {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  height: 100%;
+  background-image: url("../images/home-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 20px;
+
+  h1 {
+    grid-column: 1;
+    grid-row: 1;
+
+    text-align: center;
+    align-self: center;
+
+    font-size: 100px;
+  }
+
+  .highlights {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    width: 100%;
+    max-width: 800px;
+
+    .item {
+      background-image: url("../images/burlap.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      max-width: 200px;
+      height: 200px;
+    }
+  }
+
+  .slogan {
+    grid-column: 2;
+    grid-row: 1 / -1;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+
+    background-image: url("../images/burlap.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+
+    .gatsby-image-wrapper {
+      width: 250px;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
