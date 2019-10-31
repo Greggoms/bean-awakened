@@ -1,0 +1,58 @@
+.learn-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
+
+  background: rgba(33, 33, 33, 0.4);
+  padding: 20px;
+
+  img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+.learn {
+  &-where {
+    grid-column: 2;
+    grid-row: 1;
+
+    h2 {
+      color: #f9f9f9;
+      margin-bottom: 15px;
+      font-size: 40px;
+    }
+    p {
+      color: #e8d4bf;
+      font-size: 26px;
+    }
+  }
+
+  &-facts {
+    grid-column: 1 / -1;
+    grid-row: 2;
+
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 48px;
+      text-align: right;
+      margin-right: 25px;
+    }
+
+    p {
+      background-image: url("../images/burlap.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      padding: 15px;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 24px;
+      margin-right: 10px;
+    }
+  }
+}

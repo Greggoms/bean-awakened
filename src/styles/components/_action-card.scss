@@ -1,0 +1,41 @@
+.action {
+  background-image: url("../images/burlap.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 10px;
+
+  display: grid;
+  grid-template-rows: 1fr min-content min-content;
+  grid-gap: 10px;
+
+  h2,
+  h3 {
+    text-transform: uppercase;
+  }
+
+  &-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  &-link {
+    color: #f9f9f9;
+    background: #333;
+    padding: 7px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 125px;
+    text-align: center;
+  }
+
+  &-svg {
+    font-size: 40px;
+    margin-right: 20px;
+    color: #333;
+  }
+}

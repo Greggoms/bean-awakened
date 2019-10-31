@@ -1,0 +1,23 @@
+@font-face {
+  font-family: titleFont;
+  src: url("./components/fonts/kalam/Kalam-Bold.ttf") format("truetype");
+}
+
+h1,
+h2,
+h3 {
+  font-family: titleFont;
+}
+
+@font-face {
+  font-family: bodyFont;
+  src: url("./components/fonts/raleway/Raleway-Regular.ttf") format("truetype");
+}
+
+p,
+span,
+input,
+textarea,
+button {
+  font-family: bodyFont;
+}

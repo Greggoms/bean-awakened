@@ -29,6 +29,11 @@ const Footer = () => {
       </ul>
 
       <p>&copy; Terry Julian 2019</p>
+
+      <p className="footer-address">
+        310 Congress Ave, Austin TX, 78701 <br />
+        +1 512-423-9373
+      </p>
     </footer>
   )
 }

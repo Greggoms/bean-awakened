@@ -8,9 +8,8 @@
 body {
   max-width: 2000px;
   margin: 0 auto;
-  background-image: url("../images/bean-cup.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/coffee-beans.jpg");
+  background-size: contain;
 }
 
 // Keeps footer at bottom. https://dev.to/niorad/keeping-the-footer-at-the-bottom-with-css-grid-15mf
@@ -31,3 +30,11 @@ body,
   // grid-row-gap: 30px;
 }
 /////////////////////////
+
+main {
+  height: 100%;
+  background-image: url("../images/home-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
